@@ -17,7 +17,7 @@ Gradle for Android 第五篇( 多模块构建 ) <br />
 Gradle for Android 第六篇( 测试) <br />
 Gradle for Android 第七篇( Groovy入门 ) <br />
 
-## [Android经久不衰最受欢迎的开源库](http://www.jianshu.com/p/fcfbda09b73a)
+## [Android最受欢迎的开源库](http://www.jianshu.com/p/fcfbda09b73a)
 1. 网络请求
 2. JSON解析
 3. 响应式编程
