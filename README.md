@@ -1,3 +1,7 @@
+## [Android A to Z](http://www.greenbot.com/article/3012144/android/android-a-to-z-a-glossary-of-android-jargon-and-technical-terms.html)
+ADB, otherwise known as Android Debug Bridge, is a developer tool that lets you send commands to an Android device you’ve connected to your computer. It’s a fairly advanced tool, and you run it through the command line on your PC or Mac, but if you ever want to install, say, a developer preview release of Android on your phone, you’ll need to delve into ADB.
+
+
 ## [Android多线程的四种方式](http://www.jianshu.com/p/2b634a7c49ec)
 Android提供了四种常用的操作多线程的方式，分别是：
 1. Handler+Thread
