@@ -38,9 +38,9 @@ Gradle for Android 第七篇( Groovy入门 ) <br />
 18. 调试框架
 19. 后台处理
 
-## Kotlin on Android. Now official
+## Kotlin on Android. Now official on Android Studio 3.0
 At its Google I/O 2017 developer conference, Google just announced that Android is getting official support for Kotlin programming language. Kotlin is now supported along with Java and C++.
-###[Resources to Learn Kotlin](https://developer.android.com/kotlin/resources.html)
+### [Resources to Learn Kotlin](https://developer.android.com/kotlin/resources.html)
 
 
 
