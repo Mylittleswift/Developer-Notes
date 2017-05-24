@@ -47,6 +47,22 @@ At its Google I/O 2017 developer conference, Google just announced that Android 
 ### [Resources to Learn Kotlin](https://developer.android.com/kotlin/resources.html)
 
 
+## [Android后台调度任务与省电](https://blog.dreamtobe.cn/2016/08/15/android_scheduler_and_battery/)
+1. Handler 
+2. AlarmManager
+3. Job Scheduler
+4. GCM(FCM)
+5. Sync Adapter
+6. Doze Mode
+7. Background Limit - Android O
+
+## Android进程保活专题 
+1. [Android进程保活招式大全] (https://zhuanlan.zhihu.com/p/21987083)
+2. [Android进程保活的一般套路] (http://www.jianshu.com/p/1da4541b70ad)
+3. [怎样使一个Android应用不被杀死？] (http://blog.sina.com.cn/s/blog_3e3fcadd0100yjo2.html)
+
+
+
 
 
 
