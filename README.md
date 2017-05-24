@@ -61,6 +61,7 @@ At its Google I/O 2017 developer conference, Google just announced that Android 
 2. [Android进程保活的一般套路] (http://www.jianshu.com/p/1da4541b70ad)
 3. [怎样使一个Android应用不被杀死？] (http://blog.sina.com.cn/s/blog_3e3fcadd0100yjo2.html)
 
+## [Android进阶技能点罗列](https://github.com/DoubleDa/AndroidAdvancedSkill)
 
 
 
