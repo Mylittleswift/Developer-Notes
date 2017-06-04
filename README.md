@@ -11,7 +11,7 @@ As of 06-03-2017:
 ##
 
 
-## [GitHub 10000-Star Android Libraries]
+## GitHub 10000-Star Android Libraries
 As of 05-14-2017:
 ### [1. retrofit](https://github.com/square/retrofit) <br />
 ### [2. okhttp](https://github.com/square/okhttp) <br />
