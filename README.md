@@ -8,7 +8,6 @@ As of 06-03-2017:
 ### [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
 ### [7. YYKit](https://github.com/ibireme/YYKit) <br />
 ### [8. RestKit](https://github.com/RestKit/RestKit) <br />
-##
 
 
 ## GitHub 10000-Star Android Libraries
@@ -26,7 +25,6 @@ As of 05-14-2017:
 ### [11. fresco](https://github.com/facebook/fresco) <br />
 ### [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
 ### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
-##
 
 
 ## [Android A to Z](http://www.greenbot.com/article/3012144/android/android-a-to-z-a-glossary-of-android-jargon-and-technical-terms.html)
