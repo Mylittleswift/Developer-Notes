@@ -2,6 +2,23 @@
 ADB, otherwise known as Android Debug Bridge, is a developer tool that lets you send commands to an Android device you’ve connected to your computer. It’s a fairly advanced tool, and you run it through the command line on your PC or Mac, but if you ever want to install, say, a developer preview release of Android on your phone, you’ll need to delve into ADB.
 
 
+## [GitHub 10000-Star Android Libraries]
+As of 05-14-2017:
+### [1. retrofit](https://github.com/square/retrofit) <br />
+### [2. okhttp](https://github.com/square/okhttp) <br />
+### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
+## [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
+## [5. glide](https://github.com/bumptech/glide) <br />
+## [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
+## [7. leakcanary](https://github.com/square/leakcanary) <br />
+## [8. EventBus](https://github.com/greenrobot/EventBus) <br />
+## [9. picasso](https://github.com/square/picasso) <br />
+## [10. zxing](https://github.com/zxing/zxing) <br />
+## [11. fresco](https://github.com/facebook/fresco) <br />
+## [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
+## [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
+
+
 ## [Android多线程的四种方式](http://www.jianshu.com/p/2b634a7c49ec)
 Android提供了四种常用的操作多线程的方式，分别是：
 1. Handler+Thread
