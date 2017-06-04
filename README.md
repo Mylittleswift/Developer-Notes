@@ -5,9 +5,8 @@ As of 06-03-2017:
 ### [3. Masonry](https://github.com/SnapKit/Masonry) <br />
 ### [4. realm-cocoa](https://github.com/realm/realm-cocoa) <br />
 ### [5. JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) <br />
-### [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
-### [7. YYKit](https://github.com/ibireme/YYKit) <br />
-### [8. RestKit](https://github.com/RestKit/RestKit) <br />
+### [6. YYKit](https://github.com/ibireme/YYKit) <br />
+### [7. RestKit](https://github.com/RestKit/RestKit) <br />
 
 
 ## GitHub 10000-Star Android Libraries
