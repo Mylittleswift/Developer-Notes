@@ -1,36 +1,15 @@
-## [GitHub 10000-Star iOS Libraries - Objective-C]
+## GitHub 10000-Star iOS Libraries (Objective-C)
 As of 06-03-2017:
-### [1. retrofit](https://github.com/square/retrofit) <br />
-### [2. okhttp](https://github.com/square/okhttp) <br />
-### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
-### [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
-### [5. glide](https://github.com/bumptech/glide) <br />
+### [1. AFNetworking](https://github.com/AFNetworking/AFNetworking) <br />
+### [2. GPUImage](https://github.com/BradLarson/GPUImage) <br />
+### [3. Masonry](https://github.com/SnapKit/Masonry) <br />
+### [4. realm-cocoa](https://github.com/realm/realm-cocoa) <br />
+### [5. JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) <br />
 ### [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
-### [7. leakcanary](https://github.com/square/leakcanary) <br />
-### [8. EventBus](https://github.com/greenrobot/EventBus) <br />
-### [9. picasso](https://github.com/square/picasso) <br />
-### [10. zxing](https://github.com/zxing/zxing) <br />
-### [11. fresco](https://github.com/facebook/fresco) <br />
-### [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
-### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
+### [7. YYKit](https://github.com/ibireme/YYKit) <br />
+### [8. RestKit](https://github.com/RestKit/RestKit) <br />
 ##
 
-## [GitHub 10000-Star iOS Libraries - Swift]
-As of 06-03-2017:
-### [1. retrofit](https://github.com/square/retrofit) <br />
-### [2. okhttp](https://github.com/square/okhttp) <br />
-### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
-### [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
-### [5. glide](https://github.com/bumptech/glide) <br />
-### [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
-### [7. leakcanary](https://github.com/square/leakcanary) <br />
-### [8. EventBus](https://github.com/greenrobot/EventBus) <br />
-### [9. picasso](https://github.com/square/picasso) <br />
-### [10. zxing](https://github.com/zxing/zxing) <br />
-### [11. fresco](https://github.com/facebook/fresco) <br />
-### [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
-### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
-##
 
 ## [GitHub 10000-Star Android Libraries]
 As of 05-14-2017:
