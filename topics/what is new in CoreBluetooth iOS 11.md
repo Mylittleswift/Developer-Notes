@@ -1,9 +1,9 @@
-WWDC 2017.6.6
+WWDC 2017.6.8
 
 Table of Contents
 =================
 
-  * [What's New in Core Bluetooth \- Thursday](#whats-new-in-core-bluetooth---thursday)
+  * [What's New in Core Bluetooth](#whats-new-in-core-bluetooth)
     * [Enhanced Reliability](#enhanced-reliability)
       * [State Preservation and Restoration](#state-preservation-and-restoration)
       * [Write Without Response](#write-without-response)
@@ -18,7 +18,7 @@ Table of Contents
     * [Summary](#summary)
     * [Key Takeaways](#key-takeaways)
 
-# What's New in Core Bluetooth - Thursday
+# What's New in Core Bluetooth
 Session video and resources: https://developer.apple.com/videos/play/wwdc2017/712/
 
 ## Enhanced Reliability
