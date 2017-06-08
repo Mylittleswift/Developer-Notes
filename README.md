@@ -25,6 +25,29 @@ As of 05-14-2017:
 ### [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
 ### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
 
+## What's new in Core Bluetooth iOS 11
+WWDC 2017
+
+Table of Contents
+=================
+
+  * [What's New in Core Bluetooth \- Thursday](#whats-new-in-core-bluetooth---thursday)
+    * [Enhanced Reliability](#enhanced-reliability)
+      * [State Preservation and Restoration](#state-preservation-and-restoration)
+      * [Write Without Response](#write-without-response)
+    * [Platform Support](#platform-support)
+    * [L2CAP Channels](#l2cap-channels)
+    * [Best Practises](#best-practises)
+      * [Time to Discover](#time-to-discover)
+      * [Reconnecting devices](#reconnecting-devices)
+      * [Service Discovery Speed](#service-discovery-speed)
+    * [Getting the most out of Core Bluetooth](#getting-the-most-out-of-core-bluetooth)
+      * [Extended Data Length](#extended-data-length)
+    * [Summary](#summary)
+    * [Key Takeaways](#key-takeaways)
+
+# What's New in Core Bluetooth - Thursday
+
 
 ## [Android A to Z](http://www.greenbot.com/article/3012144/android/android-a-to-z-a-glossary-of-android-jargon-and-technical-terms.html)
 ADB, otherwise known as Android Debug Bridge, is a developer tool that lets you send commands to an Android device you’ve connected to your computer. It’s a fairly advanced tool, and you run it through the command line on your PC or Mac, but if you ever want to install, say, a developer preview release of Android on your phone, you’ll need to delve into ADB.
