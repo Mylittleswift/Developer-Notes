@@ -1,12 +1,16 @@
+## iOS Interview Q & A
+1. [Sample 1](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/ios-interview.md)
+2. [Sample 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview-chinese)
+
 ## iOS APP Security and Reverse Engineering
 1. <https://github.com/iosre/iOSAppReverseEngineering>
 2. <http://www.jianshu.com/p/4da57be23275>
-3. http://www.jianshu.com/p/10873c5c1e08
-4. https://danleechina.github.io/ios-app-security-reinforce/
-5. https://github.com/Polidea/ios-class-guard
-6. http://www.freebuf.com/articles/terminal/129640.html
-7. https://github.com/danleechina/CodeSecurity
-8. https://danleechina.github.io/ios-app-security-reinforce/
+3. <http://www.jianshu.com/p/10873c5c1e08>
+4. <https://danleechina.github.io/ios-app-security-reinforce/>
+5. <https://github.com/Polidea/ios-class-guard>
+6. <http://www.freebuf.com/articles/terminal/129640.html>
+7. <https://github.com/danleechina/CodeSecurity>
+8. <https://danleechina.github.io/ios-app-security-reinforce/>
 
 
 ## [What's new in Core Bluetooth iOS 11](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/what%20is%20new%20in%20CoreBluetooth%20iOS%2011.md)
