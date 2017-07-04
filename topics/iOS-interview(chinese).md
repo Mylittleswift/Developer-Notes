@@ -666,53 +666,61 @@ load 方法不会被类自动继承
 * 可以更容易的添加任务的依赖关系
 * 提供了任务的状态：isExecuteing, isFinished.
 
-####strong / weak / unsafe_unretained 的区别
+#### strong / weak / unsafe_unretained 的区别
 * weak只能修饰OC对象,使用weak不会使计数器加1,对象销毁时修饰的对象会指向nil
 * strong等价与retain,能使计数器加1,且不能用来修饰数据类型
 * unsafe_unretained等价与assign,可以用来修饰数据类型和OC对象,但是不会使计数器加1,且对象销毁时也不会将对象指向nil,容易造成野指针错误_
 
-####如何为 Class 定义一个对外只读对内可读写的属性
+#### 如何为 Class 定义一个对外只读对内可读写的属性
 在头文件中将属性定义为readonly,在.m文件中将属性重新定义为readwrite
-####Objective-C 中，meta-class 指的是什么
+
+#### Objective-C 中，meta-class 指的是什么
 meta-class 是 Class 对象的类,为这个Class类存储类方法,当一个类发送消息时,就去那个类对应的meta-class中查找那个消息,每个Class都有不同的meta-class,所有的meta-class都使用基类的meta-class(假如类继承NSObject,那么他所对应的meta-class也是NSObject)作为他们的类
-####UIView 和 CALayer 之间的关系
+
+#### UIView 和 CALayer 之间的关系
 * UIView显示在屏幕上归功于CALayer，通过调用drawRect方法来渲染自身的内容，调节CALayer属性可以调整UIView的外观，UIView继承自UIResponder，CALayer不可以响应用户事件
 * UIView是iOS系统中界面元素的基础，所有的界面元素都继承自它。它内部是由Core Animation来实现的，它真正的绘图部分，是由一个叫CALayer(Core Animation Layer)的类来管理。UIView本身，更像是一个CALayer的管理器，访问它的根绘图和坐标有关的属性，如frame，bounds等，实际上内部都是访问它所在CALayer的相关属性
 * UIView有个layer属性，可以返回它的主CALayer实例，UIView有一个layerClass方法，返回主layer所使用的类，UIView的子类，可以通过重载这个方法，来让UIView使用不同的CALayer来显示
 
-####+￼UIView animateWithDuration:animations:completion:￼ 内部大概是如何实现的
+#### +￼UIView animateWithDuration:animations:completion:￼ 内部大概是如何实现的
 animateWithDuration:这就等于创建一个定时器
 animations:这是创建定时器需要实现的SEL
 completion:是定时器结束以后的一个回调block
-####什么时候会发生「隐式动画」
+
+#### 什么时候会发生「隐式动画」
 当改变CALayer的一个可做动画的属性，它并不能立刻在屏幕上体现出来.相反，它是从先前的值平滑过渡到新的值。这一切都是默认的行为，你不需要做额外的操作,这就是隐式动画
-####frame 和 bounds 的区别是什么
+
+#### frame 和 bounds 的区别是什么
 * frame相对于父视图,是父视图坐标系下的位置和大小。bounds相对于自身,是自身坐标系下的位置和大小。
 * frame以父控件的左上角为坐标原点，bounds以自身的左上角为坐标原点
 
-####如何把一张大图缩小为1/4大小的缩略图
+#### 如何把一张大图缩小为1/4大小的缩略图
 data = UIImageJPEGRepresentation(image, 0.25)
-####category 和 extension 的区别
+
+#### category 和 extension 的区别
 * category ：分类有名字，类扩展没i有分类名字，是一种特殊的分类
 * extension ：分类只能扩展方法（属性仅仅是声明，并没真正实现），类扩展可以扩展属性、成员变量和方法
-####define 和 const常量有什么区别
+
+#### define 和 const常量有什么区别
 * define在预处理阶段进行替换，const常量在编译阶段使用
 * 宏不做类型检查，仅仅进行替换，const常量有数据类型，会执行类型检查
 * define不能调试，const常量可以调试
 * define定义的常量在替换后运行过程中会不断地占用内存，而const定义的常量存储在数据段只有一份copy，效率更高
 * define可以定义一些简单的函数，const不可以
-####block和weak修饰符的区别
+
+#### block和weak修饰符的区别
 * __block不管是ARC还是MRC模式下都可以使用，可以修饰对象，也可以修饰基本数据类型
 * __weak只能在ARC模式下使用，只能修饰对象（NSString），不能修饰基本数据类型
 *  block修饰的对象可以在block中被重新赋值，weak修饰的对象不可以
 
-####static关键字的作用
+#### static关键字的作用
 * 函数（方法）体内 static 变量的作用范围为该函数体，该变量的内存只被分配一次，因此其值在下次调用时仍维持上次的值；
 * 在模块内的 static 全局变量可以被模块内所用函数访问，但不能被模块外其它函数访问；
 * 在模块内的 static 函数只可被这一模块内的其它函数调用，这个函数的使用范围被限制在声明 它的模块内；
 * 在类中的 static 成员变量属于整个类所拥有，对类的所有对象只有一份拷贝；
 * 在类中的 static 成员函数属于整个类所拥有，这个函数不接收 this 指针，因而只能访问类的static 成员变量
-####堆和栈的区别
+
+#### 堆和栈的区别
 *从管理方式来讲
 1. 对于栈来讲，是由编译器自动管理，无需我们手工控制；
 2. 对于堆来说，释放工作由程序员控制，容易产生内存泄露(memory leak)
@@ -723,14 +731,15 @@ data = UIImageJPEGRepresentation(image, 0.25)
 1.  栈空间中一般存储基本类型，对象的地址
 2. 堆空间一般存放对象本身，block的copy等
 
-####Objective-C使用什么机制管理对象内存
+#### Objective-C使用什么机制管理对象内存
 * MRC 手动引用计数
 * ARC 自动引用计数,现在通常ARC
 * 通过 retainCount 的机制来决定对象是否需要释放。 每次 runloop 的时候，都会检查对象的 retainCount，如果retainCount 为 0，说明该对象没有地方需要继续使用了，可以释放掉了
 
-####ARC通过什么方式帮助开发者管理内存
+#### ARC通过什么方式帮助开发者管理内存
 通过编译器在编译的时候,插入类似内存管理的代码
-####ARC是为了解决什么问题诞生的
+
+#### ARC是为了解决什么问题诞生的
 * 首先解释ARC: automatic reference counting自动引用计数
 * 了解MRC的缺点
 1. 在MRC时代当我们要释放一个堆内存时，首先要确定指向这个堆空间的指针都被release了
@@ -739,12 +748,12 @@ data = UIImageJPEGRepresentation(image, 0.25)
 4. 多线程操作时，不确定哪个线程最后使用完毕
 * 综上所述，MRC有诸多缺点，很容易造成内存泄露和坏内存的问题，这时苹果为尽量解决这个问题，从而诞生了ARC
 
-####ARC下还会存在内存泄露吗
+#### ARC下还会存在内存泄露吗
 * 循环引用会导致内存泄露
 * Objective-C对象与CoreFoundation对象进行桥接的时候如果管理不当也会造成内存泄露
 * CoreFoundation中的对象不受ARC管理，需要开发者手动释放
 
-####什么情况使用weak关键字，相比assign有什么不同
+#### 什么情况使用weak关键字，相比assign有什么不同
 * 首先明白什么情况使用weak关键字？
 1. 在ARC中,在有可能出现循环引用的时候,往往要通过让其中一端使用weak来解决,比如:delegate代理属性，代理属性也可使用assign
 2. 自身已经对它进行一次强引用,没有必要再强引用一次,此时也会使用weak,自定义IBOutlet控件属性一般也使用weak；当然，也可以使用strong，但是建议使用weak
@@ -752,14 +761,14 @@ data = UIImageJPEGRepresentation(image, 0.25)
 1. weak策略在属性所指的对象遭到摧毁时，系统会将weak修饰的属性对象的指针指向nil，在OC给nil发消息是不会有什么问题的；如果使用assign策略在属性所指的对象遭到摧毁时，属性对象指针还指向原来的对象，由于对象已经被销毁，这时候就产生了野指针，如果这时候在给此对象发送消息，很容造成程序奔溃
 2. assigin 可以用于修饰非OC对象,而weak必须用于OC对象
 
-####@property 的本质是什么
+#### @property 的本质是什么
 @property其实就是在编译阶段由编译器自动帮我们生成ivar成员变量，getter方法，setter方法
 ivar、getter、setter是如何生成并添加到这个类中的？
 • 使用“自动合成”( autosynthesis)
 • 这个过程由编译器在编译阶段执行自动合成，所以编辑器里看不到这些“合成方法”(synthesized method)的源代码
 • 除了生成getter、setter方法之外，编译器还要自动向类中添加成员变量（在属性名前面加下划线，以此作为实例变量的名字）
 
-####KVO内部实现原理
+#### KVO内部实现原理
 *  KVO是基于runtime机制实现的
 * 当某个类的属性对象第一次被观察时，系统就会在运行期动态地创建该类的一个派生类，在这个派生类中重写基类中任何被观察属性的setter 方法。派生类在被重写的setter方法内实现真正的通知机制
 * 如果原类为Person，那么生成的派生类名为NSKVONotifying_Person
@@ -767,18 +776,20 @@ ivar、getter、setter是如何生成并添加到这个类中的？
 * 键值观察通知依赖于NSObject 的两个方法: willChangeValueForKey: 和 didChangevlueForKey:；在一个被观察属性发生改变之前， willChangeValueForKey: 一定会被调用，这就 会记录旧的值。而当改变发生后，didChangeValueForKey: 会被调用，继而 observeValueForKey:ofObject:change:context: 也会被调用。
 * 补充：KVO的这套实现机制中苹果还偷偷重写了class方法，让我们误认为还是使用的当前类，从而达到隐藏生成的派生类
 
-####KVC的keyPath中的集合运算符如何使用
+#### KVC的keyPath中的集合运算符如何使用
 * 必须用在集合对象上或普通对象的集合属性上
 * 简单集合运算符有@avg， @count ， @max ， @min ，@sum
 * 格式 @"@sum.age" 或 @"集合属性.@max.age"？？？
 
-####KVC和KVO的keyPath一定是属性么
+#### KVC和KVO的keyPath一定是属性么
 可以是成员变量
 
 #### Object-c的类可以多重继承么?可以实现多个接口么?Category是什么?重写一个类的方式用继承好还是分类好?为什么?
 Object-c的类不可以多重继承;可以实现多个接口，通过实现多个接口可以完成C++的多重继承;Category是类别，一般情况用分类好，用Category去重写类的方法，仅对本Category有效，不会影响到其他类与原有类的关系。
+
 ####  #import 跟#include 又什么区别，@class呢, #import\<\> 跟 #import””又什么区别
 import是Objective-C导入头文件的关键字，#include是C/C++导入头文件的关键字,使用#import头文件会自动只导入一次，不会重复导入，相当于#include和#pragma once;@class告诉编译器某个类的声明，当执行时，才去查看类的实现文件，可以解决头文件的相互包含;#import\<\>用来包含系统的头文件，#import””用来包含用户头文件。
+
 #### 属性readwrite，readonly，assign，retain，copy，nonatomic 各是什么作用，在那种情况下用?
 1. readwrite 是可读可写特性;需要生成getter方法和setter方法时
 2. readonly 是只读特性 只会生成getter方法 不会生成setter方法 ;不希望属性在类外改变
@@ -786,6 +797,7 @@ import是Objective-C导入头文件的关键字，#include是C/C++导入头文�
 4. retain 表示持有特性，setter方法将传入参数先保留，再赋值，传入参数的retaincount会+1;
 5. copy 表示赋值特性，setter方法将传入对象复制一份;需要完全一份新的变量时。
 6. nonatomic 非原子操作，决定编译器生成的setter getter是否是原子操作，atomic表示多线程安全，一般使用nonatomic
+
 #### 写一个setter方法用于完成@property (nonatomic,retain)NSString *name,写一个setter方法用于完成@property(nonatomic，copy)NSString *name
 - (void) setName:(NSString*) str
 {
@@ -802,10 +814,13 @@ name = str;
 
 #### 对于语句NSString*obj = [[NSData alloc](#) init]; obj在编译时和运行时分别时什么类型的对象?
 编译时是NSString的类型;运行时是NSData类型的对象
+
 #### 常见的object-c的数据类型有那些， 和C的基本数据类型有什么区别?如：NSInteger和int
 object-c的数据类型有NSString，NSNumber，NSArray，NSMutableArray，NSData等等，这些都是class，创建后便是对象，而C语言的基本数据类型int，只是一定字节的内存空间，用于存放数值;NSInteger是基本数据类型，并不是NSNumber的子类，当然也不是NSObject的子类。NSInteger是基本数据类型Int或者Long的别名(NSInteger的定义typedef long NSInteger)，它的区别在于，NSInteger会根据系统是32位还是64位来决定是本身是int还是Long。
+
 #### id 声明的对象有什么特性
 Id 声明的对象具有运行时的特性，即可以指向任意类型的objcetive-c的对象
+
 #### Objective-C如何对内存管理的,说说你的看法和解决方法
 Objective-C的内存管理主要有三种方式ARC(自动内存计数)、手动内存计数、内存池。
 1. (Garbage Collection)自动内存计数：这种方式和java类似，在你的程序的执行过程中。始终有一个高人在背后准确地帮你收拾垃圾，你不用考虑它什么时候开始工作，怎样工作。你只需要明白，我申请了一段内存空间，当我不用从而这段内存成为垃圾的时候，我就彻底的把它忘记掉，反正那个高人会帮我收拾垃圾。遗憾的是，那个高人需要消耗一定的资源，在携带设备里面，资源是紧俏商品所以iPhone不支持这个功能。所以“Garbage Collection”不是本入门指南的范围，对“Garbage Collection”内部机制感兴趣的同学可以参考一些其他的资料，不过说老实话“Garbage Collection”不大适合适初学者研究。
@@ -814,9 +829,11 @@ Objective-C的内存管理主要有三种方式ARC(自动内存计数)、手动�
 解决:一般是由类的静态方法创建的, 函数名中不会出现alloc或init字样, 如[NSString string](#)和[NSArray arrayWithObject:](#), 创建后引用计数+0, 在函数出栈后释放, 即相当于一个栈上的局部变量. 当然也可以通过retain延长对象的生存期.
 3. (NSAutoRealeasePool)内存池：可以通过创建和释放内存池控制内存申请和回收的时机.
 解决:是由autorelease加入系统内存池, 内存池是可以嵌套的, 每个内存池都需要有一个创建释放对, 就像main函数中写的一样. 使用也很简单, 比如[[[NSString alloc](#)initialWithFormat:@”Hey you!”] autorelease], 即将一个NSString对象加入到最内层的系统内存池, 当我们释放这个内存池时, 其中的对象都会被释放.
+
 #### 原子(atomic)跟非原子(non-atomic)属性有什么区别?
 1. atomic提供多线程安全。是防止在写未完成的时候被另外一个线程读取，造成数据错误
 2. non-atomic:在自己管理内存的环境中，解析的访问器保留并自动释放返回的值，如果指定了 nonatomic ，那么访问器只是简单地返回这个值。
+
 #### 看下面的程序,第一个NSLog会输出什么?这时str的retainCount是多少?第二个和第三个呢? 为什么?
 =======================================================
 NSMutableArray* ary = [[NSMutableArray array](#) retain];
@@ -841,12 +858,16 @@ retain+1，release-1，release-1 2
 内存管理主要要避免“过早释放”和“内存泄漏”，对于“过早释放”需要注意@property设置特性时，一定要用对特性关键字，对于“内存泄漏”，一定要申请了要负责释放，要细心。
 关键字alloc 或new 生成的对象需要手动释放;
 设置正确的property属性，对于retain需要在合适的地方释放，
+
 #### 如何对iOS设备进行性能测试
 Profile-\> Instruments -\>Time Profiler
+
 #### Object C中创建线程的方法是什么?如果在主线程中执行代码，方法是什么?如果想延时执行代码、方法又是什么
 线程创建有三种方法：使用NSThread创建、使用GCD的dispatch、使用子类化的NSOperation,然后将其加入NSOperationQueue;在主线程执行代码，方法是performSelectorOnMainThread，如果想延时执行代码可以用performSelector:onThread:withObject:waitUntilDone:
+
 #### 描述一下iOS SDK中如何实现MVC的开发模式
 MVC是模型、试图、控制开发模式，对于iOS SDK，所有的View都是视图层的，它应该独立于模型层，由视图控制层来控制。所有的用户数据都是模型层，它应该独立于视图。所有的ViewController都是控制层，由它负责控制视图，访问模型数据。
+
 #### 浅复制和深复制的区别
 浅层复制：只复制指向对象的指针，而不复制引用对象本身。
 深层复制：复制引用对象本身。
@@ -856,6 +877,7 @@ MVC是模型、试图、控制开发模式，对于iOS SDK，所有的View都是
 用网上一哥们通俗的话将就是：
 浅复制好比你和你的影子，你完蛋，你的影子也完蛋
 深复制好比你和你的克隆人，你完蛋，你的克隆人还活着。
+
 ####  类别的作用?继承和类别在实现中有何区别?
 category 可以在不获悉，不改变原来代码的情况下往里面添加新的方法，只能添加，不能删除修改。
 并且如果类别和原来类中的方法产生名称冲突，则类别将覆盖原来的方法，因为类别具有更高的优先级。
@@ -868,6 +890,7 @@ category 可以在不获悉，不改变原来代码的情况下往里面添加�
 #### 类别和类扩展的区别
 category和extensions的不同在于 后者可以添加属性。另外后者添加的方法是必须要实现的。
 extensions可以认为是一个私有的Category。
+
 #### oc中的协议和java中的接口概念有何不同
 OC中的代理有2层含义，官方定义为 formal和informal protocol。前者和Java接口一样。
 informal protocol中的方法属于设计模式考虑范畴，不是必须实现的，但是如果有实现，就会改变类的属性。
@@ -877,6 +900,7 @@ informal protocol中的方法属于设计模式考虑范畴，不是必须实现
 这么看，总觉得类别这玩意儿有点像协议的可选协议。”
 现在来看，其实protocal已经开始对两者都统一和规范起来操作，因为资料中说“非正式协议使用interface修饰“，
 现在我们看到协议中两个修饰词：“必须实现(@requied)”和“可选实现(@optional)”
+
 #### 什么是KVO和KVC
 kvc:键 – 值编码是一种间接访问对象的属性使用字符串来标识属性，而不是通过调用存取方法，直接或通过实例变量访问的机制。
 很多情况下可以简化程序代码。apple文档其实给了一个很好的例子。
@@ -899,6 +923,7 @@ kvo:键值观察机制，他提供了观察某一属性变化的方法，极大�
 来至cocoa，这个说法应该挺有道理。
 因为我们知道button却是存在一个highlighted实例变量.因此为何上面我们只是add一个相关的keypath就行了，
 可以按照kvc查找的逻辑理解，就说的过去了。
+
 ####  代理的作用
 代理的目的是改变或传递控制链。允许一个类在某些特定时刻通知到其他类，而不需要获取到那些类的指针。可以减少框架复杂度。
 另外一点，代理可以理解为java中的回调监听机制的一种类似。
@@ -906,6 +931,7 @@ kvo:键值观察机制，他提供了观察某一属性变化的方法，极大�
 #### oc中可修改和不可以修改类型。
 可修改不可修改的集合类。这个我个人简单理解就是可动态添加修改和不可动态添加修改一样。
 比如NSArray和NSMutableArray。前者在初始化后的内存控件就是固定不可变的，后者可以添加等，可以动态申请新的内存空间
+
 #### 我们说的oc是动态运行时语言是什么意思
 多态。 主要是将数据类型的确定由编译时，推迟到了运行时。
 这个问题其实浅涉及到两个概念，运行时和多态。
@@ -914,6 +940,7 @@ kvo:键值观察机制，他提供了观察某一属性变化的方法，极大�
 那人类属于生物，猪也属于生物，都继承了life后，实现各自的eat，但是调用是我们只需调用各自的eat方法。
 也就是不同的对象以自己的方式响应了相同的消息(响应了eat这个选择器)。
 因此也可以说，运行时机制是多态的基础
+
 #### 通知和协议的不同之处
 协议有控制链(has-a)的关系，通知没有。
 首先我一开始也不太明白，什么叫控制链(专业术语了)。但是简单分析下通知和代理的行为模式，我们大致可以有自己的理解
@@ -922,29 +949,35 @@ kvo:键值观察机制，他提供了观察某一属性变化的方法，极大�
 只是对于不同明星间，代理的事物对象都是不一样的，一一对应，不可能说明天要处理A明星要一个发布会，代理人发出处理发布会的消息后，别称B的
 发布会了。但是通知就不一样，他只关心发出通知，而不关心多少接收到感兴趣要处理。
 因此控制链(has-a从英语单词大致可以看出，单一拥有和可控制的对应关系。
+
 #### 推送消息
 简单点就是客户端获取资源的一种手段。
 普通情况下，都是客户端主动的pull。
 推送则是服务器端主动push。 测试push的实现可以查看该博文。
+
 ####  关于多态性
 多态，子类指针可以赋值给父类。
 这个题目其实可以出到一切面向对象语言中，
 因此关于多态，继承和封装基本最好都有个自我意识的理解，也并非一定要把书上资料上写的能背出来。
+
 #### 说说响应链
 事件响应链。包括点击事件，画面刷新事件等。在视图栈内从上至下，或者从下之上传播。
 可以说点事件的分发，传递以及处理。具体可以去看下touch事件这块。因为问的太抽象化了
 严重怀疑题目出到越后面就越笼统。
 可以从责任链模式，来讲通过事件响应链处理，其拥有的扩展性
+
 #### frame和bounds有什么不同
 frame指的是：该view在父view坐标系统中的位置和大小。(参照点是父亲的坐标系统)
 bounds指的是：该view在本身坐标系统中 的位置和大小。(参照点是本身坐标系统)
 #### 方法和选择器有何不同
 selector是一个方法的名字，method是一个组合体，包含了名字和实现.
 详情可以看apple文档。
+
 #### OC的垃圾回收机制
 OC2.0有Garbage collection，但是iOS平台不提供。
 一般我们了解的objective-c对于内存管理都是手动操作的，但是也有自动释放池。
 但是差了大部分资料，貌似不要和arc机制搞混就好了
+
 #### NSOperation queue
 存放NSOperation的集合类。
 操作和操作队列，基本可以看成java中的线程和线程池的概念。用于处理ios多线程开发的问题。
@@ -1039,7 +1072,6 @@ typedef void(^didFinishBlock) (NSObject *ob);
 声明一个blokc对象，注意对象属性设置为copy，接到block 参数时，便会自动复制一份。
 __block是一种特殊类型，
 使用该关键字声明的局部变量，可以被block所改变，并且其在原函数中的值会被改变。
-
 
 
 #### runtime怎么添加属性、方法等
