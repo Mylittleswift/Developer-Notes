@@ -1,6 +1,6 @@
 ## iOS Interview Q & A
 1. [Sample 1](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/ios-interview.md)
-2. [Sample 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview-chinese)
+2. [Sample 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview(chinese).md)
 3. <https://github.com/937447974/Blog>
 
 ## iOS APP Security and Reverse Engineering
