@@ -16,15 +16,23 @@
 
 ## [What's new in Core Bluetooth iOS 11](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/what%20is%20new%20in%20CoreBluetooth%20iOS%2011.md)
 
-## GitHub 10000-Star iOS Libraries (Objective-C)
+## GitHub 10000-Star iOS Libraries
 As of 06-03-2017:
 ### [1. AFNetworking](https://github.com/AFNetworking/AFNetworking) <br />
-### [2. GPUImage](https://github.com/BradLarson/GPUImage) <br />
-### [3. Masonry](https://github.com/SnapKit/Masonry) <br />
-### [4. realm-cocoa](https://github.com/realm/realm-cocoa) <br />
-### [5. JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) <br />
-### [6. YYKit](https://github.com/ibireme/YYKit) <br />
-### [7. RestKit](https://github.com/RestKit/RestKit) <br />
+### [2. SDWebImage](https://github.com/rs/SDWebImage)
+### [3. GPUImage](https://github.com/BradLarson/GPUImage) <br />
+### [4. pop](https://github.com/facebook/pop)
+### [5. Masonry](https://github.com/SnapKit/Masonry) <br />
+### [6. Charts](https://github.com/danielgindi/Charts)
+### [7. realm-cocoa](https://github.com/realm/realm-cocoa) <br />
+### [8. AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit)
+### [9. Spring](https://github.com/MengTo/Spring)
+### [10. JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) <br />
+### [11. ijkplayer](https://github.com/Bilibili/ijkplayer)
+### [12. YYKit](https://github.com/ibireme/YYKit) <br />
+### [13. RestKit](https://github.com/RestKit/RestKit) <br />
+### [14. SnapKit](https://github.com/SnapKit/SnapKit)
+### [15. MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 
 
 ## GitHub 10000-Star Android Libraries
