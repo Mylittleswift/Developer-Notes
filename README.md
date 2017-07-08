@@ -33,6 +33,8 @@ As of 06-03-2017:
 ### [13. RestKit](https://github.com/RestKit/RestKit) <br />
 ### [14. SnapKit](https://github.com/SnapKit/SnapKit)
 ### [15. MBProgressHUD](https://github.com/jdg/MBProgressHUD)
+### [16. fmdb](https://github.com/ccgus/fmdb)
+### [17. MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 
 
 ## GitHub 10000-Star Android Libraries
