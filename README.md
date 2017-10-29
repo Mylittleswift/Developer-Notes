@@ -25,7 +25,7 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 1. [Sample Questions 1](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/ios-interview.md)
 2. [Sample Questions 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview(chinese).md)
 3. <https://github.com/937447974/Blog>
-4. [iOS面试准备](
+4. [Complete iOS interview questions](https://github.com/Mylittleswift/Developer_Notes/blob/master/topics/iOS%20interview.pdf)
 
 ## iOS APP Security and Reverse Engineering
 1. <https://github.com/iosre/iOSAppReverseEngineering>
