@@ -42,7 +42,7 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 ## GitHub 10000-Star iOS Libraries
 As of 06-03-2017:
 #### [1. AFNetworking](https://github.com/AFNetworking/AFNetworking)
-#### #[2. SDWebImage](https://github.com/rs/SDWebImage)
+#### [2. SDWebImage](https://github.com/rs/SDWebImage)
 #### [3. ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 #### [4. pop](https://github.com/facebook/pop)
 #### [5. Masonry](https://github.com/SnapKit/Masonry)
