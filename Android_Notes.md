@@ -2,8 +2,8 @@
 
 ## GitHub 10000-Star Android Libraries
 As of 05-14-2017:
-#### [1. retrofit](https://github.com/square/retrofit) <br />
-#### [2. okhttp](https://github.com/square/okhttp) <br />
+#### [1. retrofit](https://github.com/square/retrofit)
+#### [2. okhttp](https://github.com/square/okhttp)
 #### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
 #### [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
 #### [5. glide](https://github.com/bumptech/glide) <br />
