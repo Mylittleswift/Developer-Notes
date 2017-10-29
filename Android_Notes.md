@@ -1,4 +1,4 @@
-# Android Developer Notes <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/android_logo.png" width="100"> 
+# Android Developer Notes     <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/android_logo.png" width="80"> 
 
 ## GitHub 10000-Star Android Libraries
 As of 05-14-2017:
@@ -61,9 +61,7 @@ Gradle for Android 第七篇( Groovy入门 ) <br />
 18. 调试框架
 19. 后台处理
 
-## Kotlin on Android. Now official on Android Studio 3.0
-At its Google I/O 2017 developer conference, Google just announced that Android is getting official support for Kotlin programming language. Kotlin is now supported along with Java and C++.
-### [Resources to Learn Kotlin](https://developer.android.com/kotlin/resources.html)
+## [Kotlin on Android. Now official on Android Studio 3.0](https://developer.android.com/kotlin/resources.html)
 
 
 ## [Android后台调度任务与省电](https://blog.dreamtobe.cn/2016/08/15/android_scheduler_and_battery/)
