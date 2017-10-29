@@ -3,7 +3,7 @@
 #### Android developer notes, please go [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Resources to Develop Watch APP
+## Resources to Develop Watch Apps
 1. [awesome-watchos](https://github.com/yenchenlin/awesome-watchos)
 2. [sample-watchkit-apps](https://github.com/sanketfirodiya/sample-watchkit-apps)
 3. [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)
@@ -14,7 +14,7 @@
 A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects http://awesomeios.com
 
 
-## [Analysis of iOS open-source framworks](https://github.com/Draveness/Analyze/blob/master/README.md)
+## [Developing Bluetooth Low Energy (BLE)]
 
 
 ## Obtain iOS system and device information
@@ -39,8 +39,6 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 8. <https://danleechina.github.io/ios-app-security-reinforce/>
 
 
-## [What's new in Core Bluetooth iOS 11](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/what%20is%20new%20in%20CoreBluetooth%20iOS%2011.md)
-
 ## GitHub 10000-Star iOS Libraries
 As of 06-03-2017:
 #### [1. AFNetworking](https://github.com/AFNetworking/AFNetworking)
@@ -61,3 +59,4 @@ As of 06-03-2017:
 #### [16. fmdb](https://github.com/ccgus/fmdb)
 #### [17. MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 
+## [Analysis of iOS open-source framworks](https://github.com/Draveness/Analyze/blob/master/README.md)
