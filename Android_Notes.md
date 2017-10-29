@@ -1,8 +1,8 @@
-# Android Developer Notes <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/android_logo.png" width="50"> 
+# Android Developer Notes <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/android_logo.png" width="100"> 
 
 ## GitHub 10000-Star Android Libraries
 As of 05-14-2017:
-### [1. retrofit](https://github.com/square/retrofit) <br />
+#### [1. retrofit](https://github.com/square/retrofit) <br />
 ### [2. okhttp](https://github.com/square/okhttp) <br />
 ### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
 ### [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
