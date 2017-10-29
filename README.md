@@ -50,7 +50,7 @@ As of 06-03-2017:
 ### [16. fmdb](https://github.com/ccgus/fmdb)
 ### [17. MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 
-
+# Android Developer Notes
 ## GitHub 10000-Star Android Libraries
 As of 05-14-2017:
 ### [1. retrofit](https://github.com/square/retrofit) <br />
