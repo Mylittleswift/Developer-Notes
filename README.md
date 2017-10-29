@@ -1,4 +1,6 @@
-<img src="https://img.gadgethacks.com/img/70/27/63574905944081/0/android-basics-connect-bluetooth-device.1280x600.jpg" width="512">
+<img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/ios_logo.jpg" width="200">
+<img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/watchos_logo.png" width="200">
+
 
 ## [awesome-ios](https://github.com/vsouza/awesome-ios)
 A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects http://awesomeios.com
