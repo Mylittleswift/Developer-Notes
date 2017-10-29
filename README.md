@@ -17,7 +17,8 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 ## [Developing Bluetooth Low Energy (BLE)]
 
 
-## Obtain iOS system and device information [#1](https://github.com/Shmoopi/iOS-System-Services) [#2](https://github.com/liuzhongning/NNDeviceInformation)
+## Obtain iOS system and device information 
+### [#1](https://github.com/Shmoopi/iOS-System-Services) [#2](https://github.com/liuzhongning/NNDeviceInformation)
 
 
 ## Prepare to iOS Interview
@@ -39,6 +40,6 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 
 ## GitHub 10000-Star iOS Libraries
 As of 06-03-2017:
-### 1. [AFNetworking](https://github.com/AFNetworking/AFNetworking)  2. [SDWebImage](https://github.com/rs/SDWebImage)  3. [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)  4. [pop](https://github.com/facebook/pop) 5. [Masonry](https://github.com/SnapKit/Masonry) 6. [Charts](https://github.com/danielgindi/Charts) 7. [realm-cocoa](https://github.com/realm/realm-cocoa)  8. [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) [9. Spring](https://github.com/MengTo/Spring) [10. JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) [11. ijkplayer](https://github.com/Bilibili/ijkplayer) [12. YYKit](https://github.com/ibireme/YYKit) [13. RestKit](https://github.com/RestKit/RestKit) [14. SnapKit](https://github.com/SnapKit/SnapKit) [15. MBProgressHUD](https://github.com/jdg/MBProgressHUD) [16. fmdb](https://github.com/ccgus/fmdb) [17. MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
+### 1. [AFNetworking](https://github.com/AFNetworking/AFNetworking)  2. [SDWebImage](https://github.com/rs/SDWebImage)  3. [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)  4. [pop](https://github.com/facebook/pop) 5. [Masonry](https://github.com/SnapKit/Masonry) 6. [Charts](https://github.com/danielgindi/Charts) 7. [realm-cocoa](https://github.com/realm/realm-cocoa)  8. [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) 9. [Spring](https://github.com/MengTo/Spring) 10. [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)  11. [YYKit](https://github.com/ibireme/YYKit) 12. [RestKit](https://github.com/RestKit/RestKit) 14. [SnapKit](https://github.com/SnapKit/SnapKit) 15. [MBProgressHUD](https://github.com/jdg/MBProgressHUD) 16. [fmdb](https://github.com/ccgus/fmdb) 17. [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 
 ## [Analysis of iOS open-source framworks](https://github.com/Draveness/Analyze/blob/master/README.md)
