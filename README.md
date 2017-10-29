@@ -2,9 +2,11 @@
 
 Android developer notes, please go [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 
-## Develope Watch App
+## Resources to Develop Watch APP
 1. [awesome-watchos](https://github.com/yenchenlin/awesome-watchos)
-2. 
+2. [sample-watchkit-apps](https://github.com/sanketfirodiya/sample-watchkit-apps)
+3. [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)
+4. [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)
 
 
 ## [awesome-ios](https://github.com/vsouza/awesome-ios)
@@ -20,9 +22,10 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 
 
 ## iOS Interview Q & A
-1. [Sample 1](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/ios-interview.md)
-2. [Sample 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview(chinese).md)
+1. [Sample Questions 1](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/ios-interview.md)
+2. [Sample Questions 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview(chinese).md)
 3. <https://github.com/937447974/Blog>
+4. [iOS面试准备](
 
 ## iOS APP Security and Reverse Engineering
 1. <https://github.com/iosre/iOSAppReverseEngineering>
