@@ -3,18 +3,18 @@
 ## GitHub 10000-Star Android Libraries
 As of 05-14-2017:
 #### [1. retrofit](https://github.com/square/retrofit) <br />
-### [2. okhttp](https://github.com/square/okhttp) <br />
-### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
-### [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
-### [5. glide](https://github.com/bumptech/glide) <br />
-### [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
-### [7. leakcanary](https://github.com/square/leakcanary) <br />
-### [8. EventBus](https://github.com/greenrobot/EventBus) <br />
-### [9. picasso](https://github.com/square/picasso) <br />
-### [10. zxing](https://github.com/zxing/zxing) <br />
-### [11. fresco](https://github.com/facebook/fresco) <br />
-### [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
-### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
+#### [2. okhttp](https://github.com/square/okhttp) <br />
+#### [3. butterknife](https://github.com/JakeWharton/butterknife) <br />
+#### [4. MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) <br />
+#### [5. glide](https://github.com/bumptech/glide) <br />
+#### [6. Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) <br />
+#### [7. leakcanary](https://github.com/square/leakcanary) <br />
+#### [8. EventBus](https://github.com/greenrobot/EventBus) <br />
+#### [9. picasso](https://github.com/square/picasso) <br />
+#### [10. zxing](https://github.com/zxing/zxing) <br />
+#### [11. fresco](https://github.com/facebook/fresco) <br />
+#### [12. lottie-android](https://github.com/airbnb/lottie-android) <br />
+#### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid) <br />
 
 
 ## [Android A to Z](http://www.greenbot.com/article/3012144/android/android-a-to-z-a-glossary-of-android-jargon-and-technical-terms.html)
