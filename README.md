@@ -16,7 +16,7 @@
 2. [LoopHealth: Using health documents and Activity rings in HealthKit and HealthKitUI](https://developer.apple.com/library/content/samplecode/LoopHealth/Introduction/Intro.html#//apple_ref/doc/uid/TP40017553)
 3. [HelloGameKit: A skeleton app for turn based games on watchOS](https://developer.apple.com/library/content/samplecode/HelloGameKit/Introduction/Intro.html#//apple_ref/doc/uid/TP40017337)
 4. [WatchPuzzle: Using SceneKit and SpriteKit on watchOS](https://developer.apple.com/library/content/samplecode/WatchPuzzle/Introduction/Intro.html#//apple_ref/doc/uid/TP40017284)
-**Intallation on watch failed due to long intallation time**
+***Intallation on watch failed due to long intallation time***
 5. [SpeedySloth: Using HealthKit to build a workout app for Apple Watch](https://developer.apple.com/library/content/samplecode/SpeedySloth/Introduction/Intro.html#//apple_ref/doc/uid/TP40017338)
 6. [PotLoc: CoreLocation with iPhone and Apple Watch](https://developer.apple.com/library/content/samplecode/PotLoc/Introduction/Intro.html#//apple_ref/doc/uid/TP40016176)
 7. [QuickSwitch: Supporting Quick Watch Switching with WatchConnectivity](https://developer.apple.com/library/content/samplecode/QuickSwitch/Introduction/Intro.html#//apple_ref/doc/uid/TP40016647)
