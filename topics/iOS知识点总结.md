@@ -1,4 +1,4 @@
-iOS功能
+# iOS功能
 
 iOS 如何跳转到系统设置里的指定子功能界面
 
@@ -28,7 +28,7 @@ http://www.cnblogs.com/wendingding/p/5251937.html
 
 
 
-UI
+# UI
 
 UIApplication http://www.jianshu.com/p/597b9d108f39
 
@@ -86,7 +86,7 @@ http://blog.csdn.net/tammy_min/article/details/47918477
 
 
 
-Swift
+# Swift
 
 Swift https://swift.org
 
@@ -134,7 +134,7 @@ http://www.jianshu.com/p/8fc0ca4cfa85
 
 
 
-Foundation
+# Foundation
 
 iOS中属性与成员变量的区别 http://www.cnblogs.com/ygm900/p/3660364.html
 
@@ -162,7 +162,7 @@ Objective-C新特性__nonnull和__nullable http://blog.sina.com.cn/s/blog_5c9182
 
 
 
-iOS适配
+# iOS适配
 
 记录对iOS10的适配工作 http://www.jianshu.com/p/90680a4f5143
 
@@ -172,7 +172,7 @@ iOS字体大小适配的几种方法 http://www.jianshu.com/p/7a6106f952d3
 
 
 
-Git
+# Git
 
 git-flow 的工作流程 https://github.com/nvie/gitflow
 
@@ -188,7 +188,7 @@ Git，Github和Gitlab简介和基本使用 http://www.jianshu.com/p/8d497989f704
 
 
 
-CocoaPods
+# CocoaPods
 
 cocoapods:常见错误总结 http://blog.csdn.net/wangyanchang21/article/details/51437934
 
@@ -198,7 +198,7 @@ Cocoapods常用命令及介绍 http://www.jianshu.com/p/2928a32afecc
 
 
 
-Runtime
+# Runtime
 
 OC刨根问底】-Runtime简单粗暴理解 http://www.jianshu.com/p/f900de4a1495
 
@@ -212,7 +212,7 @@ iOS程序启动与运转】- RunLoop个人小结 http://www.jianshu.com/p/37ab03
 
 
 
-CoreAnimation
+# CoreAnimation
 
 iOS 动画效果：Core Animation & Facebook
 
@@ -228,13 +228,13 @@ UIViewAnimationOptions类型 http://blog.sina.com.cn/s/blog_8d1bc23f0102vqs1.htm
 
 
 
-文件管理
+# 文件管理
 
 iOS之NSFilemanager文件管理(沙盒) http://www.jianshu.com/p/a08cf375043a
 
 
 
-内存管理
+# 内存管理
 
 ARC内存管理中容易忽略的问题 http://www.cocoachina.com/ios/20170727/20038.html
 
@@ -246,7 +246,7 @@ ARC下查看对象的引用计数 http://blog.csdn.net/abc649395594/article/deta
 
 
 
-设计模式
+# 设计模式
 
 Key-Value Observing机制 http://www.cnblogs.com/pengyingh/articles/2383629.html
 
@@ -256,7 +256,7 @@ Key-Value Observing机制 http://www.cnblogs.com/pengyingh/articles/2383629.html
 
 
 
-dispatch
+# dispatch
 
 使用dispatch_group来进行线程同步 http://www.jianshu.com/p/228403206664
 
@@ -266,7 +266,7 @@ http://blog.csdn.net/klabcxy36897/article/details/52279418
 
 
 
-PhotoKit
+# PhotoKit
 
 iOS8 Photos Framework http://www.jianshu.com/p/8cf7593cc44d
 
@@ -274,7 +274,7 @@ PHFetchResult http://www.jianshu.com/p/c5fe835bb0fb
 
 
 
-知识技能
+# 知识技能
 
 iOS 保持界面流畅的技巧 https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/
 
@@ -330,7 +330,7 @@ YYKit作者博客 https://blog.ibireme.com/author/ibireme/
 
 
 
-第三方
+# 第三方
 
 iOS开发笔记 - 界面调试神器Reveal http://blog.csdn.net/jackfrued/article/details/50934092
 
@@ -358,7 +358,7 @@ CocoaLumberjack使用 http://www.jianshu.com/p/a571b69700a3
 
 
 
-数据库
+# 数据库
 
 程序员老鸟写sql语句的经验之谈 http://blog.csdn.net/liweibin_/article/details/8928997
 
@@ -368,7 +368,7 @@ iOS数据存储之SQL语句的基本使用 http://www.jianshu.com/p/7a7767e6c9ac
 
 
 
-面试相关
+# 面试相关
 
 BAHome：iOS 面试题收藏录 http://www.cocoachina.com/ios/20171027/20944.html
 
@@ -376,7 +376,7 @@ BAHome：iOS 面试题收藏录 http://www.cocoachina.com/ios/20171027/20944.htm
 
 
 
-一些错误
+# 一些错误
 
 iOS读取文件Bundle pathForResource方法返回nil问题 http://www.jianshu.com/p/c5b7b689752e
 
@@ -386,7 +386,7 @@ iOS真机调试问题-App installation failed http://www.jianshu.com/p/99c441070
 
 
 
-其他
+# 其他
 
 sublime自动缩进排版 http://blog.csdn.net/youngdou/article/details/46460423
 
