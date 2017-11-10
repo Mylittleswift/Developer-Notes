@@ -2,6 +2,12 @@
 
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
+## MVVM + ReactiveCocoa Tutorials and Samples
+1. http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/
+2. https://github.com/leichunfeng/MVVMReactiveCocoa
+3. https://github.com/lovemo/MVVMFramework
+4. https://github.com/ReactiveCocoa/ReactiveViewModel
+5. https://github.com/Mylittleswift/WeChat
 
 ## Resources to Develop Watch Apps
 1. [App Programming Guide for watchOS](https://developer.apple.com/library/content/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969)
