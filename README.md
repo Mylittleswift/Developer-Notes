@@ -1,4 +1,4 @@
-<img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/ios_logo.png" width="160"> <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/watchos_logo.png" width="120">
+<img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/ios_logo.png" width="160"> <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/watchos_logo.png" width="140">
 
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 8. <https://danleechina.github.io/ios-app-security-reinforce/>
 
 
-## GitHub 10000-Star iOS Libraries
+## GitHub 10000-Star iOS open-source framworks
 ### 1. [Alamofire](https://github.com/Alamofire/Alamofire) 2. [AFNetworking](https://github.com/AFNetworking/AFNetworking)  3. [SDWebImage](https://github.com/rs/SDWebImage)  4. [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)  5. [pop](https://github.com/facebook/pop) 6. [Masonry](https://github.com/SnapKit/Masonry) 7. [Charts](https://github.com/danielgindi/Charts) 8. [realm-cocoa](https://github.com/realm/realm-cocoa)  9. [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) 10. [Spring](https://github.com/MengTo/Spring) 11. [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)  12. [YYKit](https://github.com/ibireme/YYKit) 13. [RestKit](https://github.com/RestKit/RestKit) 14. [SnapKit](https://github.com/SnapKit/SnapKit) 15. [MBProgressHUD](https://github.com/jdg/MBProgressHUD) 16. [fmdb](https://github.com/ccgus/fmdb) 17. [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) 18. [Rxswift](https://github.com/ReactiveX/RxSwift)
 
 ## [Analysis of iOS open-source framworks](https://github.com/Draveness/Analyze/blob/master/README.md)
