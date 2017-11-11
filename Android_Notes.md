@@ -1,7 +1,6 @@
 # Android Developer Notes     <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/android_logo.png" width="80"> 
 ------------------------------------------------------------------------------------------------------------------------------
-## GitHub 10000-Star Android Libraries
-As of 05-14-2017:
+## GitHub 10000-Star Android Open-Source Frameworks
 #### [1. retrofit](https://github.com/square/retrofit)
 #### [2. okhttp](https://github.com/square/okhttp)
 #### [3. butterknife](https://github.com/JakeWharton/butterknife) 
@@ -16,6 +15,9 @@ As of 05-14-2017:
 #### [12. lottie-android](https://github.com/airbnb/lottie-android)
 #### [13. RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
+## [Android Open Source Projects](https://github.com/Trinea/android-open-project/tree/master/English%20Version)
+## [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
+## [awesome-android](https://github.com/snowdream/awesome-android)
 
 ## [Android A to Z](http://www.greenbot.com/article/3012144/android/android-a-to-z-a-glossary-of-android-jargon-and-technical-terms.html)
 ADB, otherwise known as Android Debug Bridge, is a developer tool that lets you send commands to an Android device you’ve connected to your computer. It’s a fairly advanced tool, and you run it through the command line on your PC or Mac, but if you ever want to install, say, a developer preview release of Android on your phone, you’ll need to delve into ADB.
