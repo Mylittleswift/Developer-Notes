@@ -10,6 +10,7 @@
 5. https://github.com/Mylittleswift/WeChat
 
 ## Resources to Develop Watch Apps
+Very limited resources on github and out of dated!
 1. [App Programming Guide for watchOS](https://developer.apple.com/library/content/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969)
 2. [What's New in watchOS](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInwatchOS/Articles/watchOS_4_0.html#//apple_ref/doc/uid/TP40017636-SW1)
 3. [awesome-watchos](https://github.com/yenchenlin/awesome-watchos)
