@@ -3,14 +3,15 @@
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
 ## MVVM + ReactiveCocoa Tutorials and Samples
-### Tutorials:
-1. [understanding MVVM](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
+#### Tutorials:
+1. [Understanding MVVM](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
 2. [Understanding Reactivecocoa](http://blog.leichunfeng.com/blog/2015/12/25/reactivecocoa-v2-dot-5-yuan-ma-jie-xi-zhi-jia-gou-zong-lan/)
 
 #### Demo Apps:
-1. https://github.com/leichunfeng/MVVMReactiveCocoa
-2. https://github.com/lovemo/MVVMFramework
-3. https://github.com/Mylittleswift/WeChat
+1. [Gitbucket](https://github.com/leichunfeng/MVVMReactiveCocoa)
+2. [Monkey](https://github.com/coderyi/Monkey)
+3. [sample](https://github.com/lovemo/MVVMFramework)
+4. [wechat](https://github.com/Mylittleswift/WeChat)
 
 ## Resources to Develop Watch Apps
 Very limited resources on github and out of dated!
