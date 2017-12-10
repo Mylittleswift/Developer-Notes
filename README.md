@@ -3,10 +3,10 @@
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
 
-### Functional Reactive Programming for iOS App Development
-https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6
+## Functional Reactive Programming for iOS App Development
+- Study materials: https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6
 
-## MVVM + ReactiveCocoa Tutorials and Samples
+- ReactiveCocoa 
 #### Tutorials:
 1. [Understanding MVVM](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
 2. [Understanding Reactivecocoa](http://blog.leichunfeng.com/blog/2015/12/25/reactivecocoa-v2-dot-5-yuan-ma-jie-xi-zhi-jia-gou-zong-lan/)
