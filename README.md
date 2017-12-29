@@ -25,6 +25,7 @@ Very limited resources on github and out of dated!
 4. [sample-watchkit-apps](https://github.com/sanketfirodiya/sample-watchkit-apps)
 5. [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)
 6. [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)
+7. [表有方寸， 心无桎梏](http://www.cocoachina.com/applewatch/)
 
 ### Sample Watch Apps by Apple
 1. [Using the Watch Connectivity API](https://developer.apple.com/library/content/samplecode/SimpleWatchConnectivity/Introduction/Intro.html#//apple_ref/doc/uid/TP40017663)
