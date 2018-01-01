@@ -191,7 +191,6 @@
 #### 解释程序启动后回调方法的含义
 告诉代理进程启动但还没进入状态保存
 > - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-
 告诉代理启动基本完成程序准备开始运行
 > - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 当应用程序将要入非活动状态执行，在此期间，应用程序不接收消息或事件，比如来电话了
@@ -249,12 +248,11 @@
 #### 下面这段代码有何问题
  @implementation Person
 - (void)setAge:(int)newAge {
-`      self.age = newAge;      
-` }
+      self.age = newAge;      
+ }
  @end 
 死循环
 #### 这段代码有什么问题,如何修改
-```
 for (int i = 0; i \< someLargeNumber; i++) {
     NSString *string = @”Abc”;
     string = [string lowercaseString](#);
@@ -270,11 +268,11 @@ for (int i = 0; i \< someLargeNumber; i++) {
         NSLog(@“%@”, string);
     }
 }
-```
+
 #### 截取字符串"20 | http://www.baidu.com"中，"|"字符前面和后面的数据，分别输出它们。
  ["20 | http://www.baidu.com" componentSeparatedByString:@"|"](#);
 #### 用obj-c 写一个冒泡排序.
-```
+
 NSMutableArray *ary = [@[@"1", @"2", @"3", @"4", @"6", @"5"](#) mutableCopy];
 
 for (int i = 0; i \< ary.count - 1; i++) {
@@ -292,7 +290,7 @@ for (int i = 0; i \< ary.count - 1; i++) {
 }
 
 NSLog(@"%@", ary);
-```
+
 #### 简述对UIView，UIWindow和CALayer的理解
 * UIWindow是应用的窗口,继承于UIResponder
 * UIView继承于UIView,是创建窗口中的一个视图,可以响应交互事件.一个程序只有一个主window,可以有多个window
@@ -300,7 +298,7 @@ NSLog(@"%@", ary);
 
 #### 写一个完整的代理,包括声明,实现
 代理:遵守协议的对象.
-```
+
 @class MyView;
 
 第一步:指定协议:(协议名:类名+Delegate)
@@ -318,13 +316,13 @@ NSLog(@"%@", ary);
 @end
 
 @interface MyView : UIView
-```
+
 第二步:指定代理
-```
+
 @property (nonatomic,assign)id\<MyView\> delegate;
 
 @end
-```
+
 第三步:代理遵循协议.
 
 第四步:代理实现协议里面的必须实现的方法和其他可选方法.
@@ -347,7 +345,7 @@ NSLog(@"%@", ary);
 * 多态:父类指针指向子类对象.
 
 #### 用MRC实现set和get
-```
+
 - (void)setName:(NSString *)name{
 	    
     if(_name != name){
@@ -367,23 +365,22 @@ NSLog(@"%@", ary);
     return [[_name retain](#)autorelease];
     
 }
-```
+
 #### 简述NotificationCenter.KVC,KVO,Delegate?并说明它们之间的区别?
 * NotificationCenter:消息中心.消息通知.
 
 * KVC:利用键-值间接访问类中的某个属性.
 
-`self setValue:@"123" forKeyPath:@"name";
-`
-`NSLog(@"%@",self valueForKeyPath:@"name");
-`
+self setValue:@"123" forKeyPath:@"name";
+
+NSLog(@"%@",self valueForKeyPath:@"name");
+
 * KVO:利用键-路径间接访问类中的某个属性,也就是观察者模式(KVO+通知中心).基于KVC和通知中心,观察的是实例变量.
 
 * Delegate:用于多个类之间的传值.
 
 #### 对MVC的理解,好处
 * MVC:是一种架构.model:数据处理,view:视图显示,controller:逻辑控制,负责视图和模型之间的通信.
-
 * 高类聚,低耦合,提高代码的复用性.
 
 #### 监测键盘的弹出
@@ -418,7 +415,7 @@ Preferences文件夹,系统偏好设置,用户对应用程序的设置,如密码
 #### 应用程序如何省电
 获取请求不能过频.优化算法
 #### 递归的使用
-```
+
 -(NSInteger)digui:(NSInteger)i{
     if (i\>0) {
         return i*[self digui:(i-1)](#);
@@ -426,7 +423,7 @@ Preferences文件夹,系统偏好设置,用户对应用程序的设置,如密码
         return 1;
     }
 }
-```
+
 #### NSArray 和 NSMutableArray 的区别?多线程下那个更安全
 * NSArray: 不可变数组.
 * NSMutableArray: 可变数组.
@@ -496,7 +493,7 @@ NSThread、GCD、NSOperationQueue.NSOperation
 #### 网络图片问题中怎么解决一个相同的网络地址重复请求的问题
 利用字典:图片地址为 key, 下载操作为 value
 #### 用 NSOperation和 NSOperationQueue处理 A.B.C三个线程,要求执行完 A.B 后才能执行
-```
+
 //创建队列
 
 NSOperationQueue * queue = [[NSOperationQueue alloc](#)init];
@@ -534,7 +531,7 @@ NSOperation * C = [NSBlockOperation blockOperationWithBlock:^{
 [queue addOperation:b](#);
 
 [queue addOperation:c](#);
-```
+
 #### GCD内部怎么实现的
 1. OS和 OSX 的核心是 XNU 内核, GCD是基于 XNU 内核实现的(是由苹果电脑发展起来的操作系统内核).
 2. GCD 的 API 全部在 libdispatch 库中.
@@ -550,7 +547,6 @@ NSOperation * C = [NSBlockOperation blockOperationWithBlock:^{
 
 #### 对于类方法（静态方法）默认是autorelease的，所有类方法都会这样吗
 系统自带的绝大数类方法返回的对象，都是经过autorelease
-
 
 #### block在ARC中和MRC中的方法有何区别？需要注意什么？
 1. 对于没有引用外部变量的Block，无论在ARC还是MRC下，类型都是_NSGlobalBlock_,这种类型的block可以理解为一种全局的block,不需要考虑作用域的问题。同时，对它进行Copy和Retain操作也是无效的。
@@ -804,7 +800,7 @@ import是Objective-C导入头文件的关键字，#include是C/C++导入头文�
 6. nonatomic 非原子操作，决定编译器生成的setter getter是否是原子操作，atomic表示多线程安全，一般使用nonatomic
 
 #### 写一个setter方法用于完成@property (nonatomic,retain)NSString *name,写一个setter方法用于完成@property(nonatomic，copy)NSString *name
-```
+
 - (void) setName:(NSString*) str
 {
 [str retain](#);
@@ -817,7 +813,7 @@ name = str;
     [name release](#);
     name = t;
 }
-```
+
 #### 对于语句NSString*obj = [[NSData alloc](#) init]; obj在编译时和运行时分别时什么类型的对象?
 编译时是NSString的类型;运行时是NSData类型的对象
 
@@ -841,7 +837,7 @@ Objective-C的内存管理主要有三种方式ARC(自动内存计数)、手动�
 2. non-atomic:在自己管理内存的环境中，解析的访问器保留并自动释放返回的值，如果指定了 nonatomic ，那么访问器只是简单地返回这个值。
 
 #### 看下面的程序,第一个NSLog会输出什么?这时str的retainCount是多少?第二个和第三个呢? 为什么?
-```
+
 =======================================================
 NSMutableArray* ary = [[NSMutableArray array](#) retain];
 NSString *str = [NSString stringWithFormat:@"test"](#);
@@ -855,7 +851,7 @@ NSLog(@”%@%d”,str,[str retainCount](#));
 [aryremoveAllObjects](#);
 NSLog(@”%@%d”,str,[str retainCount](#));
 =======================================================
-```
+
 str的retainCount创建+1，retain+1，加入数组自动+1 3
 retain+1，release-1，release-1 2
 数组删除所有对象，所有数组内的对象自动-1 1
@@ -915,7 +911,7 @@ kvc:键 – 值编码是一种间接访问对象的属性使用字符串来标�
 kvo:键值观察机制，他提供了观察某一属性变化的方法，极大的简化了代码。
 具体用看到嗯哼用到过的一个地方是对于按钮点击变化状态的的监控。
 比如我自定义的一个button
-```
+
 [self addObserver:self forKeyPath:@"highlighted" options:0 context:nil](#);
 # pragma mark KVO
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
@@ -924,7 +920,7 @@ kvo:键值观察机制，他提供了观察某一属性变化的方法，极大�
         [self setNeedsDisplay](#);
     }
 }
-```
+
 对于系统是根据keypath去取的到相应的值发生改变，理论上来说是和kvc机制的道理是一样的。
 对于kvc机制如何通过key寻找到value：
 “当通过KVC调用对象时，比如：[self valueForKey:@”someKey”](#)时，程序会自动试图通过几种不同的方式解析这个调用。首先查找对象是否带有 someKey 这个方法，如果没找到，会继续查找对象是否带有someKey这个实例变量(iVar)，如果还没有找到，程序会继续试图调用 -(id) valueForUndefinedKey:这个方法。如果这个方法还是没有被实现的话，程序会抛出一个NSUndefinedKeyException异常错误。
@@ -1044,10 +1040,9 @@ NSManagedObject是NSObject的子类 ，也是coredata的重要组成部分，它
 NSManagedobjectContext对象负责应用和数据库之间的交互
 #### 什么是谓词
 谓词是通过NSPredicate，是通过给定的逻辑条件作为约束条件，完成对数据的筛选。
-```
 predicate = [NSPredicate predicateWithFormat:@"customerID == %d",n](#);
 a = [customers filteredArrayUsingPredicate:predicate](#);
-```
+
 #### 和coredata一起有哪几种持久化存储机制
 存入到文件、 存入到NSUserDefaults(系统plist文件中)、存入到Sqlite文件数据库
 #### 多线程是什么
@@ -1084,7 +1079,6 @@ typedef void(^didFinishBlock) (NSObject *ob);
 声明一个blokc对象，注意对象属性设置为copy，接到block 参数时，便会自动复制一份。
 __block是一种特殊类型，
 使用该关键字声明的局部变量，可以被block所改变，并且其在原函数中的值会被改变。
-
 
 #### runtime怎么添加属性、方法等
 * ivar表示成员变量
@@ -1163,7 +1157,6 @@ objc中的类方法和实例方法有什么本质区别和联系
 * 解除所有 __weak 引用
 * 调用 free()
 
-
 #### runloop和线程有什么关系？
 * 每条线程都有唯一的一个RunLoop对象与之对应的
 * 主线程的RunLoop是自动创建并启动
@@ -1207,7 +1200,7 @@ objc中的类方法和实例方法有什么本质区别和联系
 ○ 首先，分别异步执行2个耗时的操作
 ○ 其次，等2个异步操作都执行完毕后，再回到主线程执行一些操作
 • 使用队列组实现上面的需求
- ```
+
 // 创建队列组
 dispatch_group_t group =  dispatch_group_create();
 // 获取全局并发队列
@@ -1228,7 +1221,7 @@ dispatch_group_notify(group, queue, ^{
         // 执行相关代码...
     });
 });
-```
+
 #### dispatch_barrier_async的作用是什么
 • 函数定义
  
@@ -1237,7 +1230,7 @@ dispatch_barrier_async(dispatch_queue_t queue, dispatch_block_t block);
 • 注意：这个函数的第一个参数queue不能是全局的并发队列
 • 作用：在它前面的任务执行结束后它才执行，在它后面的任务等它执行完成后才会执
 • 示例代码
- ```
+
 -(void)barrier
 {
     dispatch_queue_t queue = dispatch_queue_create("12342234", DISPATCH_QUEUE_CONCURRENT);
@@ -1258,9 +1251,9 @@ dispatch_barrier_async(dispatch_queue_t queue, dispatch_block_t block);
         NSLog(@"----4-----%@", [NSThread currentThread](#));
     });
 }
-```
+
 #### 以下代码运行结果如何？
-```
+
 - (void)viewDidLoad
 {
     [super viewDidLoad](#);
@@ -1270,9 +1263,8 @@ dispatch_barrier_async(dispatch_queue_t queue, dispatch_block_t block);
     });
     NSLog(@"3");
 }
-```
-• 答案：主线程死锁
 
+• 答案：主线程死锁
 
 #### lldb（gdb）常用的调试命令
 * po：打印对象，会调用对象description方法。是print-object的简写
@@ -1335,7 +1327,6 @@ dispatch_barrier_async(dispatch_queue_t queue, dispatch_block_t block);
 使用系统的某些block api（如UIView的block版本写动画时），是否也考虑循环引用问题？
 * 系统的某些block api中，UIView的block版本写动画时不需要考虑，但也有一些api 需要考虑
 
-
 #### Size Classes
 对屏幕进行分类
 #### UIView和CALayer是什么关系
@@ -1363,7 +1354,7 @@ dispatch_barrier_async(dispatch_queue_t queue, dispatch_block_t block);
 self.view.layer.cornerRadius = 5;
 self.view.layer.masksToBounds = YES;
 正确的解决方案：使用绘图技术
-```
+
 - (UIImage *)circleImage  
 	{  
 	    // NO代表透明  
@@ -1382,9 +1373,9 @@ self.view.layer.masksToBounds = YES;
 	    UIGraphicsEndImageContext();  
 	    return image;  
 	}  
-	```
+
 * 还有一种方案：使用了贝塞尔曲线"切割"个这个图片, 给UIImageView 添加了的圆角，其实也是通过绘图技术来实现的
-```
+
 	UIImageView *imageView = [[UIImageView alloc](#)   initWithFrame:CGRectMake(0, 0, 100, 100)];  
 	imageView.center = CGPointMake(200, 300);  
 	UIImage *anotherImage = [UIImage imageNamed:@"image"](#);  
@@ -1395,7 +1386,6 @@ self.view.layer.masksToBounds = YES;
 	imageView.image = UIGraphicsGetImageFromCurrentImageContext();  
 	UIGraphicsEndImageContext();  
 [self.view addSubview:imageView](#);  
-```
 
 #### 使用drawRect有什么影响
 * drawRect方法依赖Core Graphics框架来进行自定义的绘制
@@ -1413,7 +1403,7 @@ self.view.layer.masksToBounds = YES;
 
 #### 控制器的生命周期
  就是问的view的生命周期，下面已经按方法执行顺序进行了排序
-```
+
 // 自定义控制器view，这个方法只有实现了才会执行  
 - (void)loadView  
 	{  
@@ -1476,11 +1466,11 @@ self.view.layer.masksToBounds = YES;
 	- (void)viewDidUnload  
 	{  
 	}  
-	```
+
 #### 你是怎么封装一个view的
 * 可以通过纯代码或者xib的方式来封装子控件
 * 建立一个跟view相关的模型，然后将模型数据传给view，通过模型上的数据给view的子控件赋值
-```
+
 /**  纯代码初始化控件时一定会走这个方法  
  */  
 - (instancetype)initWithFrame:(CGRect)frame  
@@ -1505,7 +1495,7 @@ self.view.layer.masksToBounds = YES;
 	{  
 	    // 初始化代码  
 	}  
-	```
+
 #### 如何进行iOS6、7的适配
 通过判断版本来控制，来执行响应的代码
 
@@ -1524,8 +1514,7 @@ define iOS7 ([[UIDevice currentDevice](#).systemVersion doubleValue]\>=7.0)
 *  假设控制器B的view中有一个UIScrollView这样一个子控件
 * 如果此时在控制器B的viewDidLoad中设置UIScrollView的contentSize的话会导致不准确的问题
 * 因为任何控制器的view在viewDidLoad的时候的尺寸都是不准确的，如果有子控件的尺寸依赖父控件的尺寸，在这个方法中设置会导致子控件的frame不准确，所以这时应该在下面的方法中设置子控件的尺寸
-
-`-(void)viewDidLayoutSubviews;`
+-(void)viewDidLayoutSubviews;
 #### 触摸事件的传递
 * 触摸事件的传递是从父控件传递到子控件
 * 如果父控件不能接收触摸事件，那么子控件就不可能接收到触摸事件
