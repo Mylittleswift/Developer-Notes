@@ -59,11 +59,14 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 
 ## Prepare to iOS Interview
 1. [Sample Questions 1](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/ios-interview.md)
-2. [Sample Questions 2 (chinese)](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview(chinese).md)
-3. <https://github.com/937447974/Blog>
+2. [Sample Questions 2](https://github.com/Mylittleswift/Andriod-iOS-Blogs/blob/master/topics/iOS-interview(chinese).md)
+3. [20 iOS Developer Interview Questions](https://www.codementor.io/mattgoldspink/ios-interview-tips-questions-answers-objective-c-du1088nfb)
 4. [Complete iOS interview questions](https://github.com/chaoskyme/iOS-Interview-Questions)
-5. [iOS知识点总结 ](https://github.com/Mylittleswift/Developer_Notes/blob/master/topics/iOS%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md)
-6.[招聘一个靠谱的 iOS](https://github.com/ChenYilong/iOSInterviewQuestions) -very good!
+5. [14 Essential iOS Interview Questions](https://www.toptal.com/ios/interview-questions)
+6. [招聘一个靠谱的 iOS](https://github.com/ChenYilong/iOSInterviewQuestions) -very good!
+
+## Famous iOS developers' blogs
+1. [唐巧]（http://blog.devtang.com/categories/iOS/)
 
 ## iOS APP Security and Reverse Engineering
 1. <https://github.com/iosre/iOSAppReverseEngineering>
