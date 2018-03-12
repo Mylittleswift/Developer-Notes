@@ -9,12 +9,10 @@
 #### Tutorials:
 1. [Study materials](https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6)
 2. [Understanding Reactivecocoa](http://blog.leichunfeng.com/blog/2015/12/25/reactivecocoa-v2-dot-5-yuan-ma-jie-xi-zhi-jia-gou-zong-lan/)
-
 #### Demo Apps:
 1. [Gitbucket](https://github.com/leichunfeng/MVVMReactiveCocoa)
-2. [Monkey](https://github.com/coderyi/Monkey)
-3. [sample](https://github.com/lovemo/MVVMFramework)
-4. [wechat](https://github.com/Mylittleswift/WeChat)
+2. [sample](https://github.com/lovemo/MVVMFramework)
+3. [wechat](https://github.com/Mylittleswift/WeChat)
 
 ## Resources to Develop Watch Apps
 Very limited resources on github and out of dated!
