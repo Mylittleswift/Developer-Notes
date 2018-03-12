@@ -4,11 +4,10 @@
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## Functional Reactive Programming for iOS App Development
-- Study materials: https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6
-
-- ReactiveCocoa 
+- [RxSwift](https://github.com/ReactiveX/RxSwift)
+- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 #### Tutorials:
-1. [Understanding MVVM](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
+1. [Study materials](https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6)
 2. [Understanding Reactivecocoa](http://blog.leichunfeng.com/blog/2015/12/25/reactivecocoa-v2-dot-5-yuan-ma-jie-xi-zhi-jia-gou-zong-lan/)
 
 #### Demo Apps:
