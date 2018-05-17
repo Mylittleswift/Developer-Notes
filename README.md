@@ -2,6 +2,10 @@
 
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
+### iOS meets Blockchain
+1. iOS apps:
+2. iOS framworks:
+3. Using swift
 
 ## Functional Reactive Programming for iOS App Development
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
