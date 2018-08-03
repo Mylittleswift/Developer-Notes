@@ -1,4 +1,5 @@
-<img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/ios_logo.png" width="160"> <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/watchos_logo.png" width="130">
+<img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/ios_logo.png" width="160"> <img src="https://github.com/Mylittleswift/Developer_Notes/blob/master/logo/watchos_logo.png" width="130"> <img src="https://www.android.com/static/2016/img/share/andy-lg.png" width="230">
+
 
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
