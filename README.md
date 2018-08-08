@@ -3,10 +3,11 @@
 
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
+### Augmented Reality - ARKit apps
+https://github.com/Mylittleswift/Awesome-ARKit
+
 ### iOS meets Blockchain
-1. iOS apps:
-2. iOS framworks:
-3. Using swift
+https://github.com/Mylittleswift/iOS-blockchain-apps
 
 ## Functional Reactive Programming for iOS App Development
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
