@@ -67,6 +67,8 @@ A curated list of awesome iOS ecosystem, including Objective-C and Swift Project
 4. [Complete iOS interview questions](https://github.com/chaoskyme/iOS-Interview-Questions)
 5. [14 Essential iOS Interview Questions](https://www.toptal.com/ios/interview-questions)
 6. [招聘一个靠谱的 iOS](https://github.com/ChenYilong/iOSInterviewQuestions) -very good!
+7. [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
+
 
 ## Famous iOS developers' blogs
 1. [唐巧]（http://blog.devtang.com/categories/iOS/)
