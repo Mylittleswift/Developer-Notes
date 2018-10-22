@@ -2,7 +2,6 @@
 
 #### Android developer notes are [here.](https://github.com/Mylittleswift/Developer_Notes/blob/master/Android_Notes.md)
 ------------------------------------------------------------------------------------------------------------------------------
-### Data Structures and Algorithms in Swift and Objective-C
 
 
 ### Augmented Reality - ARKit apps
