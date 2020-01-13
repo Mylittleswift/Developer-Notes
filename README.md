@@ -7,7 +7,6 @@
 - #1 xccov - Apple's tool since XCode 9.3, [how to use](https://medium.com/xcblog/xccov-xcode-code-coverage-report-for-humans-466a4865aa18)
 - #2 xcov: https://github.com/fastlane-community/xcov
 - #3 Slather: https://github.com/SlatherOrg/slather
-The best report fomart looking is xcov so far.
 
 ### Augmented Reality - ARKit apps
 https://github.com/Mylittleswift/Awesome-ARKit
